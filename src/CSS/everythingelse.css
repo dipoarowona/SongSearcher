@@ -1,0 +1,8 @@
+#song {
+  display: flex;
+  justify-content: space-evenly;
+  background: #c4c4c4;
+  mix-blend-mode: multiply;
+  border: 9px solid #bababa;
+  margin-top: 10px;
+}

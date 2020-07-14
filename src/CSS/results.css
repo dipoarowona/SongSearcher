@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+#Logo_resultPage {
+  margin-top: -30px;
+  margin-left: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 96px;
+  color: white;
+}
+#Logo_resultPage:hover {
+  color: rgb(185, 185, 185);
+}
+
+#result_input {
+  border-radius: 64.5px;
+  margin-left: 40px;
+  border: none;
+  width: 700px;
+  height: 86px;
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #a6a6a6;
+}
+
+#result_input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #a6a6a6;
+}
+
+.Result-search-bar {
+  display: flex;
+  position: fixed;
+  height: 100px;
+  z-index: 1;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+#result_submit {
+  margin-left: 50px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  width: 221px;
+  height: 93px;
+  background-color: transparent;
+  border: white solid 7px;
+  border-radius: 19px;
+}
+
+#result_submit:hover {
+  background: white;
+  color: #8dd4f2;
+}
+
+.results-heading {
+  width: 75%;
+  border-bottom: 10px solid white;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  line-height: 0px;
+  color: white;
+}
+.spacer {
+  width: 100%;
+  height: 150px;
+}
+#subheading {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+#subheading:active {
+  color: white;
+}
+#subheading:hover {
+  color: white;
+}
+#info {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
