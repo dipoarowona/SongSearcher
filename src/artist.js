@@ -3,20 +3,17 @@ import "./CSS/everythingelse.css";
 import DefaultArt from "./CSS/default.svg";
 const Song = (props) => {
   let cover;
-  if (props.cover == null) {
+  if (props.picture == null) {
     cover = <DefaultArt />;
   } else {
-    cover = props.cover;
+    cover = props.picture;
   }
 
   return (
     <div id="song">
       <div className="song-content">
         <img alt="" src={cover} />
-        <h1 className="song-title">{props.title}</h1>
-        <h1 id="song-artist">{props.artist}</h1>
-        <h1 id="song-album">{props.album}</h1>
-        <h1 id="song-length">{props.length}</h1>
+        <h1 className="artist-title">{props.name}</h1>
       </div>
     </div>
   );

@@ -1,17 +1,14 @@
 import React from "react";
-import Song from "./Song";
+import Album from "./album";
 
-const Results_Songs = (props) => {
+const Results_Albums = (props) => {
   let values;
   try {
     values = props.data.map((item) => (
-      <Song
+      <Album
         key={item.id}
-        title={item.title}
         artist={item.artist.name}
         album={item.album.title}
-        explicit={item.explicit_lyrics}
-        length={item.duration}
         cover={item.album.cover_small}
       />
     ));
@@ -22,4 +19,4 @@ const Results_Songs = (props) => {
   return <div>{values}</div>;
 };
 
-export default Results_Songs;
+export default Results_Albums;
