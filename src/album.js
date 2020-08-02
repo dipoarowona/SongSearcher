@@ -10,7 +10,7 @@ const Album = (props) => {
   }
 
   return (
-    <div id="song">
+    <div id="album">
       <div className="song-content">
         <img alt="" src={cover} />
         <h1 className="song-album">{props.album}</h1>
